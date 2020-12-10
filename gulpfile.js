@@ -33,7 +33,7 @@ function stylesTask() {
 
 // a function for images tasks
 function imageTask() {
-  return src('src/images/*.jpg', 'src/images/*.png', 'src/images/*.webp')
+  return src('src/images/*.jpg')
     .pipe(imagemin())
     .pipe(dest('dist/images'))
 }

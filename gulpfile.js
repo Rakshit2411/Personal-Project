@@ -6,6 +6,7 @@ const autoprefixer = require('autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
 const imagemin = require('gulp-imagemin');
 const uglify = require('gulp-uglify');
+const concat = require('gulp-concat');
 
 // a function for HTML tasks
 function htmlTask() {
@@ -19,6 +20,7 @@ function scriptTask() {
   .pipe(sourcemaps.init())
   .pipe(uglify())
   .pipe(sourcemaps.write())
+  .pipe(concat('all.js'))
   .pipe(dest('dist/scripts'))
 }
 
@@ -28,6 +30,7 @@ function stylesTask() {
     .pipe(sourcemaps.init())
     .pipe(gulppostcss([ autoprefixer(), cssnano() ]))
     .pipe(sourcemaps.write())
+    .pipe(concat('all.css'))
     .pipe(dest('dist/styles'))
 }
 
@@ -38,6 +41,4 @@ function imageTask() {
     .pipe(dest('dist/images'))
 }
 
-// exports.html = htmlTask;
-// exports.styles = stylesTask;
 exports.default = series(htmlTask, imageTask, stylesTask, scriptTask);

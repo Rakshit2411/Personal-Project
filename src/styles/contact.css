@@ -6,7 +6,7 @@
   position: relative;
 }
 .title{
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/snack-background2.webp);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/);
   height: 600px;
   background-size: cover;
 }
@@ -95,7 +95,7 @@ button:hover {
   height: 800px;
   margin: auto;
   padding-top: 50px;
-  background: url(./images/background-8.jpg);
+  background: url(../images/background-8.jpg);
   background-size: cover;
   padding: 15px;
   border-radius: 3px;
@@ -120,7 +120,7 @@ input{
 }
 
 .signup-details{
-  background: url(./images/background-4.jpg);
+  background: url(../images/background-4.jpg);
   background-size: cover;
 }
 

@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header{
+  position: relative;
+}
+.title{
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/snack-background2.webp);
+  height: 600px;
+  background-size: cover;
+}
+.title-background{
+  font-family: 'Pacifico', cursive;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  font-size: 105px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  width: 800px;
+  border-radius: 50%;
+  text-shadow: 5px 5px purple;
+}
+.inner { 
+  padding: 10px;
+  background: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.right{
+  width: 70%;
+  text-align: end;
+}
+.left{
+  width: 30%;
+}
+.right a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  padding: 20px;
+}
+.left a {
+  font-size: 50px;
+  padding: 0px;
+  color: white;
+}
+main{
+  margin-top: 0;
+  padding: 0;
+  color: white;
+  background: lightpink
+}
+
+.intro{
+  font-family: 'Pacifico', cursive;
+  padding: 40px;
+  background: rgb(0,0,0);
+  background: linear-gradient(163deg, rgba(0,0,0,1) 0%, rgba(97,22,101,1) 46%, rgba(249,145,254,1) 100%);
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+.snipit-image{
+  width: 450px;
+  height: 450px;
+  margin: 40px;
+  border: 18px white solid;
+  border-radius: 5%;
+}
+.snack-snipits{
+  display: flex;
+  flex-flow: row wrap;
+}
+.snipit-1, .snipit-2, .snipit-3, .snipit-4, .snipit-5{
+  text-align: center;
+  width: 50%;
+  position: relative; 
+  margin-top: 25px;
+  margin-bottom: 25px; 
+}
+.lable-1, .lable-2, .lable-3, .lable-4, .lable-5{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  color: purple;
+  text-align: center;
+  text-shadow: 5px 5px white;
+  border: 5px white solid;
+  border-radius: 5%;
+}
+footer{
+  display: flex;
+  flex-flow: row wrap;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(201,179,215,1) 57%, rgba(148,187,233,1) 100%);
+}
+.bottom-left{
+  width: 30%;
+  text-align: left;
+  padding: 30px;
+  font-size: 25px;
+}
+.bottom-right{
+  width: 60%;
+  text-align: right;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}

@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header{
+  position: relative;
+}
+.title{
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/Snacks-header-image.jpg);
+  height: 600px;
+  background-size: cover;
+}
+.title-background{
+  font-family: 'Pacifico', cursive;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  font-size: 105px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  width: 800px;
+  border-radius: 50%;
+  text-shadow: 5px 5px purple;
+}
+.inner { 
+  padding: 10px;
+  background: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.right{
+  width: 70%;
+  text-align: end;
+}
+.left{
+  width: 30%;
+}
+.right a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  padding: 20px;
+}
+.left a {
+  font-size: 50px;
+  padding: 0px;
+  color: white;
+}
+
+.job-offer{
+  font-family: 'Pacifico', cursive;
+  padding: 40px;
+  color: white;
+  background: rgb(0,0,0);
+  background: linear-gradient(163deg, rgba(0,0,0,1) 0%, rgba(97,22,101,1) 46%, rgba(249,145,254,1) 100%);
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+/* .signup-details{
+  margin-bottom: 0%;
+} */
+
+form {
+  margin-top: 50px;
+}
+
+h2{
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 1px lightgreen;
+}
+
+button {
+  background: #00685f;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+  border: 1px solid #00685f;
+  color: #00685f;
+  cursor: pointer;
+}
+
+.wrap {
+  width: 600px;
+  height: 800px;
+  margin: auto;
+  padding-top: 50px;
+  background: url(../images/background-8.jpg);
+  background-size: cover;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+#agree {
+  width: initial;
+}
+
+input{
+  width: 590px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.title-name{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.signup-details{
+  background: url(../images/background-4.jpg);
+  background-size: cover;
+}
+
+button{
+  width: 100%;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: auto;
+  margin-top: 50px;
+  background: lightgreen;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.cancel-button{
+  background: lightcoral; 
+}
+
+.checkbox{
+  padding-top: 20px;
+  color: white;
+}
+
+.footer{
+  display: flex;
+  flex-flow: row wrap;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(201,179,215,1) 57%, rgba(148,187,233,1) 100%);
+}
+.bottom-left{
+  width: 30%;
+  text-align: left;
+  padding: 30px;
+  font-size: 25px;
+}
+.bottom-right{
+  width: 60%;
+  text-align: right;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}

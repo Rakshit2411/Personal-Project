@@ -1,0 +1,22 @@
+{
+  "name": "personal-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rakshit2411/Personal-Project.git"
+  },
+  "author": "Rakshit Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rakshit2411/Personal-Project/issues"
+  },
+  "homepage": "https://github.com/Rakshit2411/Personal-Project#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
